@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fitness_image"
+    tools:context=".StartFitnutro">
+
+    <TextView
+        android:id="@+id/txtenterUN"
+        android:layout_width="265dp"
+        android:layout_height="36dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="@string/txtenterUN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/edtUN"
+        android:layout_width="214dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="@string/edtUN"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtenterUN"
+        app:layout_constraintVertical_bias="0.697"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/custom_button_profilemgt"
+        android:text="@string/btnstart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#F8AF43"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUN" />
+
+    <!--<TextView
+        android:id="@+id/topBar0"
+        android:layout_width="415dp"
+        android:layout_height="61dp"
+        android:background="@drawable/toolbar"
+        android:fontFamily="@font/gabriela"
+        android:text="@string/topBar0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFF"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage">
+    <Button
+        android:id="@+id/timetablebtn"
+        android:layout_width="180dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/custom_button_profilemgt"
+        android:text="@string/timetablebtn"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#EF5CA8"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myprofilebtn"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:id="@+id/mealplanbtn"
+        android:layout_width="180dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_button_profilemgt"
+        android:text="@string/mealplanbtn"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#8AF320"
+        app:layout_constraintBottom_toTopOf="@+id/workoutbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/topBar1"
+        android:layout_width="415dp"
+        android:layout_height="61dp"
+        android:background="#0F71BD"
+        android:text="@string/topBar1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/myprofilebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/myprofilebtn"
+        android:layout_width="180dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/custom_button_profilemgt"
+        android:text="@string/myprofilebtn"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#169FDF"
+        app:layout_constraintBottom_toTopOf="@+id/timetablebtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/myprofilebtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBar1"
+        app:srcCompat="@drawable/workout"
+        android:layout_marginLeft="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="208dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/meal"
+        android:layout_marginLeft="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/mealplanbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBar1"
+        app:srcCompat="@drawable/workout2"
+        android:layout_marginRight="52dp" />
+
+    <Button
+        android:id="@+id/workoutbtn"
+        android:layout_width="180dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_button_profilemgt"
+        android:text="@string/workoutbtn"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#D540EF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mealplanbtn"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        android:layout_marginRight="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

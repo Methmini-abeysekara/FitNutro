@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FitNutro</string>
+
+    <string name="topBar0">FITNUTRO</string>
+    <string name="txtenterUN">ENTER USERNAME</string>
+    <string name="edtUN">Enter username</string>
+    <string name="btnstart">START</string>
+
+    <string name="topBar1">WELCOME !!!</string>
+    <string name="myprofilebtn">MY PROFILE</string>
+    <string name="mealplanbtn">MEAL PLAN</string>
+    <string name="timetablebtn">TIME TABLE</string>
+    <string name="workoutbtn">WORKOUT</string>
+</resources>
