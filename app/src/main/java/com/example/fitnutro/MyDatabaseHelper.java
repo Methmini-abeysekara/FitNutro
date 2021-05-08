@@ -42,6 +42,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    //Add
     void  addReminder(String reminder_name, String reminder_time){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();
