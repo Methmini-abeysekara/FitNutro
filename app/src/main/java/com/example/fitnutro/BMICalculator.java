@@ -106,6 +106,7 @@ public class BMICalculator extends AppCompatActivity {
         startActivity(in);
     }*/
 
+    //calculation
     public void calculateBMI(View view){
         if (!validateWeight()){
             return;
