@@ -24,7 +24,6 @@ public class AddActivity extends AppCompatActivity implements DatePickerDialog.O
     Button add_button;
     ImageButton home;
 
-    //validation
     //validation_Reminder
     public boolean validateReminderName(){
         String ReminderName  = name_input.getText().toString();
