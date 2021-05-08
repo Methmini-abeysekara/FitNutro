@@ -11,4 +11,65 @@
     <string name="mealplanbtn">MEAL PLAN</string>
     <string name="timetablebtn">TIME TABLE</string>
     <string name="workoutbtn">WORKOUT</string>
+
+    <string name="topBar2">MY PROFILE</string>
+    <string name="btnUpdateWeight">UPDATE WEIGHT</string>
+    <string name="btnBMICalculator">BMI CALCULATOR</string>
+    <string name="btnCalCalculator">CALORIE TABLE</string>
+    <string name="btnReminder">REMINDER</string>
+    <string name="btnRateus">RATE US</string>
+    <string name="btnFeedback">FEEDBACK</string>
+
+    <string name="txtGender">GENDER</string>
+    <string name="txtTarget">TARGET</string>
+    <string name="btnsave1">SAVE</string>
+    <string name="radioMale1">MALE</string>
+    <string name="radioFemale1">FEMALE</string>
+
+    <string name="topBar3">UPDATE WEIGHT</string>
+
+    <string name="txtcurrentweight">CURRENT WEIGHT (kg)</string>
+    <string name="txtgoalweight">GOAL WEIGHT (kg)</string>
+    <string name="edtcurrentweight">90</string>
+    <string name="edtgoalweight">75</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnSave">SAVE</string>
+    <string name="btnNext">NEXT</string>
+
+    <string name="topBar4">BMI CALCULATOR</string>
+    <string name="txtheight">HEIGHT (cm)</string>
+    <string name="txtweight">WEIGHT (kg)</string>
+    <string name="btnCalcBMI">CALCULATE</string>
+
+    <string name="topBar5">CALORIE TABLE</string>
+    <string name="txtAge">AGE (Years)</string>
+    <string name="edtAge">22</string>
+    <string name="txtFitnessLevel">FITNESS LEVEL</string>
+
+    <string name="topBar6">RATE US</string>
+    <string name="txtRate">The best we can get is all 5 stars.  We would appreciate if you can rate us.</string>
+    <string name="btnRate">RATE</string>
+
+    <string name="topBar7">REMINDER</string>
+    <string name="txtStartTime">START TIME</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="btnUpdateRemind">UPDATE</string>
+    <string name="btnSaveRemind">SAVE</string>
+    <string name="btnChecked">SEEN</string>
+
+    <string name="topBar8">BMI RESULT</string>
+    <string name="txtYourBMI">BODY MASS INDEX (BMI) TABLE </string>
+    <string name="txtBMITable">BMI TABLE</string>
+
+    <string name="topBar9">CALORIE RESULT</string>
+    <string name="txtYourCalorie">YOUR REQUIRED CALORIES </string>
+    <string name="txtCalorieTable">CALORIE TABLE</string>
+
+    <string name="bmiTable">BMI TABLE</string>
+
+    <string-array name="activeLevels">
+        <item>SEDENTARY</item>
+        <item>MODERATE</item>
+        <item>ACTIVE</item>
+    </string-array>
 </resources>

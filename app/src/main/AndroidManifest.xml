@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fitnutro">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,6 +15,65 @@
             android:label="WELCOME TO FITNUTRO"
             android:parentActivityName=".StartFitnutro">
         </activity>
+        <activity android:name=".UpdateActivity"
+            android:label="UPDATE REMINDER"
+            android:parentActivityName=".SetReminder">
+        </activity>
+
+        <activity android:name=".AddActivity"
+            android:label="ADD REMINDER"
+            android:parentActivityName=".SetReminder">
+        </activity>
+
+        <activity android:name=".SetReminder"
+            android:label="REMINDER"
+            android:parentActivityName=".MyProfile">
+        </activity>
+
+        <activity android:name=".CalorieResult"
+            android:label="CALORIE RESULT"
+            android:parentActivityName=".CalorieCalculator">
+        </activity>
+
+        <activity android:name=".BMIResult"
+            android:label="BMI TABLE"
+            android:parentActivityName=".BMICalculator">
+        </activity>
+
+        <activity android:name=".RateUs"
+            android:label="RATE US"
+            android:parentActivityName=".MyProfile">
+        </activity>
+
+        <activity android:name=".CalorieCalculator"
+            android:label="CALORIE TABLE"
+            android:parentActivityName=".MyProfile">
+        </activity>
+
+        <activity android:name=".BMICalculator"
+            android:label="BMI CALCULATOR"
+            android:parentActivityName=".MyProfile">
+        </activity>
+
+        <activity android:name=".UpdateWeight"
+            android:label="UPDATE WEIGHT"
+            android:parentActivityName=".MyProfile">
+        </activity>
+
+        <activity android:name=".MyProfile"
+            android:label="MY PROFILE"
+            android:parentActivityName=".WelcomePage">
+        </activity>
+
+
+        <receiver android:name="com.allyants.notifyme.NotificationPublisher" />
+        <receiver android:name="com.allyants.notifyme.BootNotifyMe" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
 
         <activity android:name=".StartFitnutro"
             android:label="FITNUTRO">
@@ -22,6 +83,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>
