@@ -9,12 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitNutro">
-        <activity android:name=".WelcomePage"
+        <activity android:name=".WaterIntakeCalculator"
+            android:label="Daily Water Intake Calculator"
+            android:parentActivityName=".WelcomeToTimetablePage"/>
+        <activity android:name=".UpdateTimetable"
+            android:label="UPDATE DETAILS"
+            android:parentActivityName=".Timetable" />
+        <activity android:name=".Adddetails"
+            android:label="ADD DETAILS"
+            android:parentActivityName=".Timetable"/>
+        <activity android:name=".Timetable"
+            android:label="WORKOUT TIMETABLE"
+            android:parentActivityName=".WelcomeToTimetablePage" />
+        <activity android:name=".WelcomeToTimetablePage" />
+        <activity
+            android:name=".WelcomePage"
             android:label="WELCOME TO FITNUTRO"
-            android:parentActivityName=".StartFitnutro">
-        </activity>
-
-        <activity android:name=".StartFitnutro"
+            android:parentActivityName=".StartFitnutro" />
+        <activity
+            android:name=".StartFitnutro"
             android:label="FITNUTRO">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +35,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
