@@ -152,6 +152,7 @@ public class BMICalculator extends AppCompatActivity {
         startActivity(in);
     }
 
+    //Test case bmi
     protected float calBMI(float weight, float height){
         return weight/((height/100)*(height/100));
     }
