@@ -70,6 +70,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         return  cursor;
     }
 
+    //Update
     void updateData(String row_id,String reminder_name, String reminder_time){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();
