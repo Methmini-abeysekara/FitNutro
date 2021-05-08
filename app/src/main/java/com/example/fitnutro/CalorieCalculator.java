@@ -44,7 +44,7 @@ public class CalorieCalculator extends AppCompatActivity {
         radioGroup = findViewById(R.id.radioGroup);
         age = findViewById(R.id.edtAge);
 
-
+        //Spinner
         List<String> states = Arrays.asList("SEDENTARY","MODERATE","ACTIVE");
         Spinner mySpinner = (Spinner) findViewById(R.id.spinFitnesslvl);
         ArrayAdapter myAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.select_dialog_item, states);
