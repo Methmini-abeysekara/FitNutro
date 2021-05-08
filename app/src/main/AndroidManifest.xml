@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitNutro">
-        <activity android:name=".WelcomePage"
+        <activity android:name=".Meal_Plan_Main"></activity>
+        <activity
+            android:name=".WelcomePage"
             android:label="WELCOME TO FITNUTRO"
-            android:parentActivityName=".StartFitnutro">
-        </activity>
-
-        <activity android:name=".StartFitnutro"
+            android:parentActivityName=".StartFitnutro"></activity>
+        <activity
+            android:name=".StartFitnutro"
             android:label="FITNUTRO">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
