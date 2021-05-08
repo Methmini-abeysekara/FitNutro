@@ -20,29 +20,29 @@ public class Meal_Plan_Main extends AppCompatActivity {
         button = findViewById(R.id.m_button);
         button1 = findViewById(R.id.m_button5);
         button2 = findViewById(R.id.m_button4);
-//
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent=new Intent(getApplicationContext(), Categorized_Meal_Plan.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        button1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent=new Intent(getApplicationContext(), Protein_Calculator.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        button2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent=new Intent(getApplicationContext(), Fat_calculator.class);
-//                startActivity(intent);
-//            }
-//        });
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), Categorized_Meal_Plan.class);
+                startActivity(intent);
+            }
+        });
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), Protein_Calculator.class);
+                startActivity(intent);
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), Fat_calculator.class);
+                startActivity(intent);
+            }
+        });
     }
 }
