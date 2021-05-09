@@ -39,6 +39,7 @@ public class WelcomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //openWorkout();
+
             }
         });
 
@@ -47,6 +48,7 @@ public class WelcomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //openTimeTable();
+                openTimeTable();
             }
         });
 
@@ -61,10 +63,22 @@ public class WelcomePage extends AppCompatActivity {
     }
 
 
+    public void openTimeTable(){
+        Intent in = new Intent(WelcomePage.this,WelcomeToTimetablePage.class);
+        startActivity(in);
+    }
+
+//    public void  openMyProfile(){
+//        Intent in = new Intent(WelcomePage.this,MyProfile.class);
+//        startActivity(in);
+//    }
+
+
     public void  openMyProfile(){
         Intent in = new Intent(WelcomePage.this,MyProfile.class);
        startActivity(in);
     }
+
 
     /*public void  openMealPlan(){
         Intent in = new Intent(WelcomePage.this,#.class);

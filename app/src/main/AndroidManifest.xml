@@ -12,6 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitNutro">
 
+        <activity android:name=".WaterIntakeCalculator"
+            android:label="Daily Water Intake Calculator"
+            android:parentActivityName=".WelcomeToTimetablePage"/>
+        <activity android:name=".UpdateTimetable"
+            android:label="UPDATE DETAILS"
+            android:parentActivityName=".Timetable" />
+        <activity android:name=".Adddetails"
+            android:label="ADD DETAILS"
+            android:parentActivityName=".Timetable"/>
+        <activity android:name=".Timetable"
+            android:label="WORKOUT TIMETABLE"
+            android:parentActivityName=".WelcomeToTimetablePage" />
+        <activity android:name=".WelcomeToTimetablePage" />
+        
+
+
         <activity android:name=".WelcomePage"
             android:label="WELCOME TO FITNUTRO"
             android:parentActivityName=".StartFitnutro">
@@ -175,6 +191,7 @@
         <activity
             android:name=".WelcomePage"
             android:label="WELCOME TO FITNUTRO"
+
             android:parentActivityName=".StartFitnutro" />
         <activity
             android:name=".StartFitnutro"
