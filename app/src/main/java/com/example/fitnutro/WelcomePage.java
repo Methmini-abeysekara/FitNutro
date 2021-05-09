@@ -37,7 +37,8 @@ public class WelcomePage extends AppCompatActivity {
         Workoutbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //openWorkout();
+                Intent intent = new Intent(WelcomePage.this,StartTarget.class);
+                startActivity(intent);
             }
         });
 
