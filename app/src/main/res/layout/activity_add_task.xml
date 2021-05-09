@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTask"
+    android:padding="30dp"
+    android:background="@drawable/background"
+    >
+
+
+    <EditText
+        android:id="@+id/W_title_input"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="@string/W_enter_title"
+        android:fontFamily="@font/secularone_regular"
+        android:textColorHint="@color/blue_purple"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/W_description_input"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/W_enter_your_workout"
+        android:fontFamily="@font/secularone_regular"
+        android:textColorHint="@color/blue_purple"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W_title_input" />
+
+    <EditText
+        android:id="@+id/W_sets_input"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/W_no_of_sets"
+        android:fontFamily="@font/secularone_regular"
+        android:textColorHint="@color/blue_purple"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W_description_input" />
+
+    <EditText
+        android:id="@+id/W_reps_input"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/W_no_of_reps"
+        android:fontFamily="@font/secularone_regular"
+        android:textColorHint="@color/blue_purple"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W_sets_input" />
+
+
+    <Button
+        android:id="@+id/W_add_button2"
+        android:layout_width="200dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="126dp"
+        android:text="@string/W_add"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#50C5B7"
+        app:cornerRadius="15dp"
+        android:fontFamily="@font/secularone_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W_reps_input"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/W_textTitile"
+        android:layout_width="288dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/W_set_your_schedule"
+        android:fontFamily="@font/secularone_regular"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/W_imageButton6_L"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cus_btn2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_home_24"
+        tools:ignore="VectorDrawableCompat" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

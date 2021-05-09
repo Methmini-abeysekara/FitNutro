@@ -12,6 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitNutro">
 
+
+        <activity android:name=".UpdateTask"
+            android:label="Update Your Task"
+            android:parentActivityName=".G_ScheduleList">
+
+        </activity>
+
+        <activity android:name=".StartTarget"
+            android:label="Select Your Path">
+
+        </activity>
+
+        <activity android:name=".GainActivity"
+            android:label="Weight Gain Workouts"
+            android:parentActivityName=".G_ScheduleList">
+        </activity>
+
+        <activity android:name=".G_ScheduleList"
+            android:label="Add Your Task"
+            android:parentActivityName=".StartTarget">
+
+        </activity>
+        <activity android:name=".AddTask"
+            android:label="Set Your Task"
+            android:parentActivityName=".G_ScheduleList">
+
+
+        </activity>
+        
+
         <activity android:name=".WaterIntakeCalculator"
             android:label="Daily Water Intake Calculator"
             android:parentActivityName=".WelcomeToTimetablePage"/>
@@ -191,6 +221,7 @@
         <activity
             android:name=".WelcomePage"
             android:label="WELCOME TO FITNUTRO"
+
 
             android:parentActivityName=".StartFitnutro" />
         <activity

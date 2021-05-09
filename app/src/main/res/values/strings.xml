@@ -466,6 +466,26 @@
     <string name="workoutbtn">WORKOUT</string>
 
 
+    <string name="W_enter_title">Enter Title</string>
+    <string name="W_enter_your_workout">Enter your workout</string>
+    <string name="W_no_of_sets">No of sets</string>
+    <string name="W_no_of_reps">No of reps</string>
+    <string name="W_add">Add</string>
+    <string name="W_set_your_schedule">Set Your Schedule !</string>
+    <string name="W_update">Update</string>
+    <string name="W_update_note">Update Your Schedule !</string>
+    <string name="W_delete">Delete</string>
+    <string name="W_weight_gain_workouts">Weight Gain Workouts</string>
+    <string name="W_enter_title_L">Enter Title</string>
+    <string name="W_enter_your_workout_L">Enter your workout</string>
+    <string name="W_no_of_sets_L">No of sets</string>
+    <string name="W_number_of_reps_L">Number of reps</string>
+    <string name="W_add_L">Add</string>
+    <string name="W_set_your_schedule_L">Set your schedule</string>
+    <string name="W_select_your_path_L">Select Your Path Here !</string>
+    <string name="W_weight_gain_L">Weight Gain</string>
+    <string name="W_weight_loss_L">Weight Loss</string>
+
     <string name="tstartedbtn">Get Started</string>
     <string name="maintext1">Personalize Your Workout Timetable</string>
     <string name="wcalbtn">Calculate expected daily water intake</string>
@@ -574,6 +594,7 @@
         <item>Athlete</item>
 
     </string-array>
+
 
 
 
