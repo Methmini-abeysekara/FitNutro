@@ -58,6 +58,7 @@ public class SetReminder extends AppCompatActivity {
             }
         });
 
+        //myDB
         myDB = new MyDatabaseHelper(SetReminder.this);
         reminder_id = new ArrayList<>();
         reminder_name = new ArrayList<>();
