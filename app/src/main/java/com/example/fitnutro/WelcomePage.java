@@ -17,13 +17,14 @@ public class WelcomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_page);
+
         MyProfilebtn = (Button) findViewById(R.id.myprofilebtn);
-//        MyProfilebtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                openMyProfile();
-//            }
-//        });
+        MyProfilebtn.setOnClickListener(new View.OnClickListener() {
+          @Override
+            public void onClick(View v) {
+               openMyProfile();
+            }
+        });
 
         MealPlanbtn = (Button) findViewById(R.id.mealplanbtn);
         MealPlanbtn.setOnClickListener(new View.OnClickListener() {
@@ -59,12 +60,15 @@ public class WelcomePage extends AppCompatActivity {
 
     }
 
-//    public void  openMyProfile(){
-//        Intent in = new Intent(WelcomePage.this,MyProfile.class);
-//        startActivity(in);
-//    }
-    public void  openMealPlan(){
-        Intent in = new Intent(WelcomePage.this,Meal_Plan_Main.class);
+
+    public void  openMyProfile(){
+        Intent in = new Intent(WelcomePage.this,MyProfile.class);
+       startActivity(in);
+    }
+
+    /*public void  openMealPlan(){
+        Intent in = new Intent(WelcomePage.this,#.class);
+
         startActivity(in);
     }
 
