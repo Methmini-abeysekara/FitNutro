@@ -32,6 +32,7 @@ public class RateUs extends AppCompatActivity {
         button = findViewById(R.id.btnRate);
         ratingStars = findViewById(R.id.ratingBar);
 
+        //rating stars
         ratingStars.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
