@@ -16,7 +16,7 @@ public class ExampleUnitTest {
     private Protein_Calculator protein_Calculator;
 
     @Before
-    public void setup() {
+    public void setup2() {
         protein_Calculator = new Protein_Calculator();
     }
 
