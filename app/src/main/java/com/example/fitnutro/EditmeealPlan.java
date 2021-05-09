@@ -50,6 +50,7 @@ public class EditmeealPlan extends AppCompatActivity {
         editaddmealplan2=findViewById(R.id.m_editaddmealplan2);
 
 
+
         final String id= getIntent().getStringExtra("id");
 
 

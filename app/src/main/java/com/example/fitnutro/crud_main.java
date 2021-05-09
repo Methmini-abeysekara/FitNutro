@@ -55,6 +55,8 @@ public class crud_main extends AppCompatActivity {
         });
 
 
+
+
         list1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -64,6 +66,8 @@ public class crud_main extends AppCompatActivity {
                 AlertDialog.Builder builder= new AlertDialog.Builder(context);
                 builder.setTitle(mealplanmodal.getName());
 //                builder.setMessage("message");
+
+
 
 
                 builder.setPositiveButton("Finished", new DialogInterface.OnClickListener() {
