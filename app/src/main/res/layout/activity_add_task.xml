@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".AddTask"
     android:padding="30dp"
-    android:background="@drawable/background"
+    android:background="@drawable/w_background"
     >
 
 
