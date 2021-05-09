@@ -103,12 +103,10 @@ public class UpdateTimetable extends AppCompatActivity {
             }
         });
 
-
-
     }
-
     void getAndSetIntentData(){
-        if(getIntent().hasExtra("ID") && getIntent().hasExtra("Day") && getIntent().hasExtra("Exercise_list") && getIntent().hasExtra("Time_Period")){
+        if(getIntent().hasExtra("ID") && getIntent().hasExtra("Day") && getIntent().hasExtra("Exercise_list")
+                && getIntent().hasExtra("Time_Period")){
 
             //Getting data from intent
             ID = getIntent().getStringExtra("ID");
@@ -124,7 +122,6 @@ public class UpdateTimetable extends AppCompatActivity {
         }else{
             Toast.makeText(this, "No data", Toast.LENGTH_SHORT).show();
         }
-
     }
 
     void confirmDialog(){
