@@ -26,7 +26,7 @@ public class WelcomeToTimetablePage extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openweeklyworkouttime();
+                openwaterintakecalculator();
             }
         });
     }
@@ -35,7 +35,7 @@ public class WelcomeToTimetablePage extends AppCompatActivity {
         Intent intent = new Intent(this, Timetable.class);
         startActivity(intent);
     }
-    public void openweeklyworkouttime(){
+    public void openwaterintakecalculator(){
         Intent intent = new Intent (this, WaterIntakeCalculator.class);
         startActivity(intent);
     }
