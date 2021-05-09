@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitNutro">
+
         <activity android:name=".WelcomePage"
             android:label="WELCOME TO FITNUTRO"
             android:parentActivityName=".StartFitnutro">
@@ -75,7 +76,108 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".StartFitnutro"
+        <activity android:name=".Healthy_Menu3"
+            android:label="Menu 3"
+            android:parentActivityName=".HealthyMealPlan"
+
+
+            />
+        <activity android:name=".Healthy_Menu2"
+            android:label="Menu 2"
+            android:parentActivityName=".HealthyMealPlan"
+            />
+        <activity
+            android:name=".Menu5_2000"
+            android:label="Menu 5"
+            android:parentActivityName=".Meal_Plan_2000" />
+        <activity
+            android:name=".Menu4_2000"
+            android:label="Menu 4"
+            android:parentActivityName=".Meal_Plan_2000" />
+        <activity
+            android:name=".Menu3_2000"
+            android:label="Menu 3"
+            android:parentActivityName=".Meal_Plan_2000" />
+        <activity
+            android:name=".Menu5_1200"
+            android:label="Menu 5"
+            android:parentActivityName=".Meal_Plan_1200" />
+        <activity
+            android:name=".Menu4_1200"
+            android:label="Menu 4"
+            android:parentActivityName=".Meal_Plan_1200" />
+        <activity
+            android:name=".Menu3_1200"
+            android:label="Menu 3"
+            android:parentActivityName=".Meal_Plan_1200" />
+        <activity
+            android:name=".Fat_calculator"
+            android:label="Fat Calculator"
+            android:parentActivityName=".Meal_Plan_Main" />
+        <activity
+            android:name=".Lbm_table"
+            android:label="Lean Body Mass Chart"
+            android:parentActivityName=".Protein_Calculator" />
+        <activity
+            android:name=".HealthyMenu1"
+            android:label="Menu 1"
+            android:parentActivityName=".HealthyMealPlan" />
+        <activity
+            android:name=".HealthyMealPlan"
+            android:label="Healthy Meal Plan"
+            android:parentActivityName=".Categorized_Meal_Plan" />
+        <activity
+            android:name=".Menu2_2000"
+            android:label="Menu 2"
+            android:parentActivityName=".Meal_Plan_2000" />
+        <activity
+            android:name=".Protein_Calculator"
+            android:label="Protein Calculator"
+            android:parentActivityName=".Meal_Plan_Main" />
+        <activity
+            android:name=".Menu1_2000"
+            android:label="Menu 1"
+            android:parentActivityName=".Meal_Plan_2000" />
+        <activity
+            android:name=".Meal_Plan_2000"
+            android:label="2000 Calorie Diet Plan"
+            android:parentActivityName=".Categorized_Meal_Plan" />
+        <activity
+            android:name=".Menu2_1200"
+            android:label="Menu 2"
+            android:parentActivityName=".Categorized_Meal_Plan" />
+        <activity
+            android:name=".mymealplan"
+            android:label="Add Meal Plan"
+            android:parentActivityName=".crud_main" />
+        <activity
+            android:name=".Menu1_1200"
+            android:label="Menu 1"
+            android:parentActivityName=".Meal_Plan_1200" />
+        <activity
+            android:name=".EditmeealPlan"
+            android:label="Edit Meal Plan"
+            android:parentActivityName=".crud_main" />
+        <activity
+            android:name=".crud_main"
+            android:label="Meal plan List"
+            android:parentActivityName=".Categorized_Meal_Plan" />
+        <activity
+            android:name=".Meal_Plan_1200"
+            android:label="1200 Calorie Diet Plan"
+            android:parentActivityName=".Categorized_Meal_Plan" />
+        <activity
+            android:name=".Categorized_Meal_Plan"
+            android:label="Categorized Meal Plan"
+            android:parentActivityName=".Meal_Plan_Main" />
+        <activity android:name=".Meal_Plan_Main"
+            android:label="Meal Plan"/>
+        <activity
+            android:name=".WelcomePage"
+            android:label="WELCOME TO FITNUTRO"
+            android:parentActivityName=".StartFitnutro" />
+        <activity
+            android:name=".StartFitnutro"
             android:label="FITNUTRO">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
