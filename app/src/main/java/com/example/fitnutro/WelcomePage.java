@@ -20,9 +20,9 @@ public class WelcomePage extends AppCompatActivity {
 
         MyProfilebtn = (Button) findViewById(R.id.myprofilebtn);
         MyProfilebtn.setOnClickListener(new View.OnClickListener() {
-          @Override
+            @Override
             public void onClick(View v) {
-               openMyProfile();
+                openMyProfile();
             }
         });
 
@@ -30,7 +30,7 @@ public class WelcomePage extends AppCompatActivity {
         MealPlanbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 openMealPlan();
+                //openMealPlan();
             }
         });
 
@@ -63,20 +63,17 @@ public class WelcomePage extends AppCompatActivity {
 
     public void  openMyProfile(){
         Intent in = new Intent(WelcomePage.this,MyProfile.class);
-       startActivity(in);
+        startActivity(in);
     }
 
     /*public void  openMealPlan(){
         Intent in = new Intent(WelcomePage.this,#.class);
-
         startActivity(in);
     }
-
     /*public void  openWorkout(){
         Intent in = new Intent(WelcomePage.this,#.class);
         startActivity(in);
     }
-
    /*public void  openTimeTable(){
         Intent in = new Intent(WelcomePage.this,WelcomeToTimetablePage.class);
         startActivity(in);
