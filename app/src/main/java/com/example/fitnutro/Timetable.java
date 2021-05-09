@@ -44,6 +44,7 @@ public class Timetable extends AppCompatActivity {
         Exercise_list = new ArrayList<>();
         Time_Period = new ArrayList<>();
 
+        //store data
         storeDataInArray();
         customAdapter = new TimetableCustomAdapter(Timetable.this,this, ID, Day, Exercise_list, Time_Period);
         recyclerView1.setAdapter(customAdapter);
