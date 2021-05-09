@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 public class Categorized_Meal_Plan extends AppCompatActivity {
 
     Button button,button2,button3;
-    ImageButton imageButton2,imageButton3;
+    ImageButton imageButton2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class Categorized_Meal_Plan extends AppCompatActivity {
         button2=findViewById(R.id.Mbutton6);
         button3=findViewById(R.id.Mbutton2);
         imageButton2=findViewById(R.id.MimageButton3);
-        imageButton3=findViewById(R.id.MimageButton6);
+
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
