@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Meal_Plan_Main"
-    android:background="@drawable/background"
+    android:background="@drawable/W_background"
 
     >
 
