@@ -169,4 +169,13 @@
         app:layout_constraintVertical_bias="0.492"
         tools:ignore="OnClick" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="261dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/exercisetime1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

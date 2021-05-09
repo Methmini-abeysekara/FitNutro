@@ -27,7 +27,7 @@
         android:id="@+id/time5"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="68dp"
         android:fontFamily="@font/concert_one"
         android:gravity="start"
         android:text="@string/time5"
@@ -83,10 +83,10 @@
         android:text="@string/add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintHorizontal_bias="0.211"
         app:layout_constraintStart_toStartOf="@+id/listex3"
         app:layout_constraintTop_toBottomOf="@+id/time7"
-        app:layout_constraintVertical_bias="0.745"
+        app:layout_constraintVertical_bias="0.576"
         tools:ignore="OnClick" />
 
     <TextView
@@ -109,7 +109,7 @@
         android:id="@+id/list6"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="188dp"
         android:fontFamily="@font/concert_one"
         android:gravity="start"
         android:text="@string/list6"
@@ -117,7 +117,7 @@
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
