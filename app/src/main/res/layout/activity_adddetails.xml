@@ -11,39 +11,39 @@
         android:id="@+id/listex3"
         android:layout_width="78dp"
         android:layout_height="30dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/alef"
+        android:gravity="start"
         android:text="@string/listex3"
         android:textAlignment="viewStart"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintHorizontal_bias="0.273"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toBottomOf="@+id/time5" />
 
     <TextView
         android:id="@+id/time5"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="404dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/concert_one"
+        android:gravity="start"
         android:text="@string/time5"
         android:textAlignment="viewStart"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toBottomOf="@+id/txtlist" />
 
     <EditText
         android:id="@+id/txtlist"
         android:layout_width="354dp"
         android:layout_height="44dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#000000"
         android:ems="10"
         android:fontFamily="@font/concert_one"
@@ -54,25 +54,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/listex" />
 
     <EditText
         android:id="@+id/time7"
         android:layout_width="107dp"
         android:layout_height="55dp"
-        android:layout_marginTop="476dp"
         android:backgroundTint="#000000"
         android:ems="10"
         android:fontFamily="@font/concert_one"
         android:inputType="number"
         android:outlineProvider="none"
-        android:textSize="18sp"
         android:text="@string/txtlist"
         android:textColor="#BC000000"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/listex3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/listex3" />
 
     <Button
         android:id="@+id/add"
@@ -84,32 +83,35 @@
         android:text="@string/add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="@+id/listex3"
+        app:layout_constraintTop_toBottomOf="@+id/time7"
+        app:layout_constraintVertical_bias="0.745"
         tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/day"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="48dp"
         android:fontFamily="@font/concert_one"
+        android:gravity="start"
         android:text="@string/day"
         android:textAlignment="viewStart"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/list6"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="164dp"
         android:fontFamily="@font/concert_one"
+        android:gravity="start"
         android:text="@string/list6"
         android:textAlignment="viewStart"
         android:textColor="#000000"
@@ -117,15 +119,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/listex"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="268dp"
         android:fontFamily="@font/alef"
+        android:gravity="start"
         android:text="@string/listex"
         android:textAlignment="viewStart"
         android:textColor="#000000"
@@ -133,14 +134,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toBottomOf="@+id/list6" />
 
     <EditText
         android:id="@+id/day1"
         android:layout_width="354dp"
         android:layout_height="44dp"
-        android:layout_marginTop="136dp"
         android:backgroundTint="#000000"
         android:ems="10"
         android:fontFamily="@font/concert_one"
@@ -150,7 +149,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/day" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -159,8 +158,10 @@
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintHorizontal_bias="0.991"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time7"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/pic2" />
 
 
