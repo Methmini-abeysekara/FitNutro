@@ -17,19 +17,20 @@ public class WelcomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_page);
+
         MyProfilebtn = (Button) findViewById(R.id.myprofilebtn);
-//        MyProfilebtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                openMyProfile();
-//            }
-//        });
+        MyProfilebtn.setOnClickListener(new View.OnClickListener() {
+          @Override
+            public void onClick(View v) {
+               openMyProfile();
+            }
+        });
 
         MealPlanbtn = (Button) findViewById(R.id.mealplanbtn);
         MealPlanbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // openMealPlan();
+                 openMealPlan();
             }
         });
 
@@ -61,6 +62,7 @@ public class WelcomePage extends AppCompatActivity {
 
     }
 
+
     public void openTimeTable(){
         Intent in = new Intent(WelcomePage.this,WelcomeToTimetablePage.class);
         startActivity(in);
@@ -70,15 +72,24 @@ public class WelcomePage extends AppCompatActivity {
 //        Intent in = new Intent(WelcomePage.this,MyProfile.class);
 //        startActivity(in);
 //    }
+
+
+    public void  openMyProfile(){
+        Intent in = new Intent(WelcomePage.this,MyProfile.class);
+       startActivity(in);
+    }
+
+
     /*public void  openMealPlan(){
         Intent in = new Intent(WelcomePage.this,#.class);
+
         startActivity(in);
-    }*/
+    }
 
     /*public void  openWorkout(){
         Intent in = new Intent(WelcomePage.this,#.class);
         startActivity(in);
-    }*/
+    }
 
    /*public void  openTimeTable(){
         Intent in = new Intent(WelcomePage.this,WelcomeToTimetablePage.class);
