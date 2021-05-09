@@ -11,14 +11,14 @@
         android:id="@+id/watercalculator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="264dp"
         android:backgroundTint="#00416A"
         android:text="@string/watercalculator"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/minofex"
-        app:layout_constraintVertical_bias="0.861" />
+        app:layout_constraintVertical_bias="0.192" />
 
     <TextView
         android:id="@+id/watertext2"
@@ -40,17 +40,17 @@
         android:id="@+id/watertext1"
         android:layout_width="302dp"
         android:layout_height="40dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="72dp"
         android:fontFamily="@font/concert_one"
+        android:gravity="start"
         android:text="@string/watertext1"
         android:textAlignment="viewStart"
         android:textColor="#000000"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintHorizontal_bias="0.587"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/tbodyweigt"
@@ -85,14 +85,27 @@
         android:layout_width="275dp"
         android:layout_height="127dp"
         android:layout_marginTop="44dp"
-        android:text="@string/calresult"
         android:fontFamily="@font/concert_one"
+        android:text="@string/calresult"
         android:textColor="#000000"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/watercalculator"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.048" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="122dp"
+        android:layout_height="177dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99"
+        app:srcCompat="@drawable/water" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

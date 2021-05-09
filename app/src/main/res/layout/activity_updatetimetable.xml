@@ -11,7 +11,7 @@
         android:id="@+id/time3"
         android:layout_width="99dp"
         android:layout_height="47dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="436dp"
         android:backgroundTint="#000000"
         android:ems="10"
         android:fontFamily="@font/concert_one"
@@ -44,8 +44,9 @@
         android:id="@+id/day3"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/concert_one"
+        android:gravity="start"
         android:text="@string/day"
         android:textAlignment="viewStart"
         android:textColor="#000000"
@@ -53,8 +54,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/day4"
@@ -77,8 +77,9 @@
         android:id="@+id/list8"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="184dp"
         android:fontFamily="@font/concert_one"
+        android:gravity="start"
         android:text="@string/list8"
         android:textAlignment="viewStart"
         android:textColor="#000000"
@@ -86,15 +87,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/listex2"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="240dp"
         android:fontFamily="@font/alef"
+        android:gravity="start"
         android:text="@string/listex2"
         android:textAlignment="viewStart"
         android:textColor="#000000"
@@ -102,8 +103,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtlist2"
@@ -126,17 +126,17 @@
         android:id="@+id/time2"
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginTop="408dp"
+        android:layout_marginTop="380dp"
         android:fontFamily="@font/concert_one"
+        android:gravity="start"
         android:text="@string/time5"
         android:textAlignment="viewStart"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="start" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/updatetable"

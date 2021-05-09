@@ -30,7 +30,7 @@
         android:text="@string/maintext1"
         android:textAlignment="center"
         android:textColor="#095E63"
-        android:textSize="22sp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
