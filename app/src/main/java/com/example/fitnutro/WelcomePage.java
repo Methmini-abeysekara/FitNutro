@@ -30,7 +30,7 @@ public class WelcomePage extends AppCompatActivity {
         MealPlanbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // openMealPlan();
+                 openMealPlan();
             }
         });
 
@@ -60,6 +60,7 @@ public class WelcomePage extends AppCompatActivity {
 
     }
 
+
     public void  openMyProfile(){
         Intent in = new Intent(WelcomePage.this,MyProfile.class);
        startActivity(in);
@@ -67,13 +68,14 @@ public class WelcomePage extends AppCompatActivity {
 
     /*public void  openMealPlan(){
         Intent in = new Intent(WelcomePage.this,#.class);
+
         startActivity(in);
-    }*/
+    }
 
     /*public void  openWorkout(){
         Intent in = new Intent(WelcomePage.this,#.class);
         startActivity(in);
-    }*/
+    }
 
    /*public void  openTimeTable(){
         Intent in = new Intent(WelcomePage.this,WelcomeToTimetablePage.class);
