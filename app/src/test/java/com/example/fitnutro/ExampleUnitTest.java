@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
 
+
     private Protein_Calculator protein_Calculator;
 
     @Before
@@ -29,8 +30,18 @@ public class ExampleUnitTest {
 
 
 
+
+    private BMICalculator BMICal;
+
+    @Before
+    public void setup() {
+        BMICal = new BMICalculator();
+    }
+
+
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void testBmiCalculation() {
+        float result = BMICal.calBMI(80,150);
+        assertEquals(35.555557, result,0.000001);
     }
 }

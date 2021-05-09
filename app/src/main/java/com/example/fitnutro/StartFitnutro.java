@@ -49,4 +49,3 @@ public class StartFitnutro<Textview> extends AppCompatActivity {
     }
 }
 
-// Test
