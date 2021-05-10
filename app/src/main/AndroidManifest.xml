@@ -20,7 +20,8 @@
         </activity>
 
         <activity android:name=".StartTarget"
-            android:label="Select Your Path">
+            android:label="Select Your Path"
+            >
 
         </activity>
 
@@ -54,7 +55,9 @@
         <activity android:name=".Timetable"
             android:label="WORKOUT TIMETABLE"
             android:parentActivityName=".WelcomeToTimetablePage" />
-        <activity android:name=".WelcomeToTimetablePage" />
+        <activity android:name=".WelcomeToTimetablePage"
+            android:label="TIMETABLE"
+            />
         
 
 
@@ -217,13 +220,14 @@
             android:label="Categorized Meal Plan"
             android:parentActivityName=".Meal_Plan_Main" />
         <activity android:name=".Meal_Plan_Main"
-            android:label="Meal Plan"/>
-        <activity
-            android:name=".WelcomePage"
-            android:label="WELCOME TO FITNUTRO"
+            android:label="Meal Plan"
+            />
+<!--        <activity-->
+<!--            android:name=".WelcomePage"-->
+<!--            android:label="WELCOME TO FITNUTRO"-->
 
 
-            android:parentActivityName=".StartFitnutro" />
+<!--            android:parentActivityName=".StartFitnutro" />-->
         <activity
             android:name=".StartFitnutro"
             android:label="FITNUTRO">
