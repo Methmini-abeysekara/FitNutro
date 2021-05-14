@@ -114,7 +114,6 @@
     <string name="menu__15">Lunch (325 calories)</string>
 
 
-    
     <string name="menu__16">
 
 -<![CDATA[1 serving Veggie & Hummus Sandwich]]>
@@ -580,7 +579,7 @@
         <item>ACTIVE</item>
     </string-array>
 
-    
+
     <string-array name="sprItems">
 
         <item>Generally Physically Inactive</item>
@@ -594,8 +593,6 @@
         <item>Athlete</item>
 
     </string-array>
-
-
 
 
 </resources>

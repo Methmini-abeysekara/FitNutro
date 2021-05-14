@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class StartTarget extends AppCompatActivity {
 
-    Button Gain_button,Loss_button;
+    Button Gain_button;
+    Button Loss_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,11 +18,22 @@ public class StartTarget extends AppCompatActivity {
         setContentView(R.layout.activity_start_target);
 
         Gain_button = findViewById(R.id.W_gain_button);
+        Loss_button = findViewById(R.id.W_loss_Button);
+
         Gain_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(StartTarget.this,G_ScheduleList.class);
                 startActivity(i);
+            }
+        });
+
+        Loss_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(StartTarget.this,LoseActivity.class);
+                startActivity(intent);
+
             }
         });
     }
