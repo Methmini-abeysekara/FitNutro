@@ -11,6 +11,7 @@ public class StartTarget extends AppCompatActivity {
 
     Button Gain_button;
     Button Loss_button;
+    /*buttons*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
