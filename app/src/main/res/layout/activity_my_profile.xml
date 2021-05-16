@@ -24,7 +24,8 @@
         android:background="@drawable/ic_arrow_back"
         android:tint="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/topBar2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
 
     <Button
         android:id="@+id/btnUpdateWeight"
@@ -40,7 +41,8 @@
         app:icon="@drawable/update"
         app:iconTint="@color/white"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="3dp" />
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="RtlCompat" />
 
     <Button
         android:id="@+id/btnBMICalculator"
@@ -59,7 +61,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnUpdateWeight" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUpdateWeight"
+        tools:ignore="RtlCompat" />
 
     <Button
         android:id="@+id/btnCalCalculator"
@@ -78,7 +81,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBMICalculator" />
+        app:layout_constraintTop_toBottomOf="@+id/btnBMICalculator"
+        tools:ignore="RtlCompat" />
 
     <Button
         android:id="@+id/btnReminder"
@@ -96,7 +100,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalCalculator" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCalCalculator"
+        tools:ignore="RtlCompat" />
 
     <Button
         android:id="@+id/btnRateus"
@@ -112,7 +117,8 @@
         app:icon="@drawable/rate"
         app:iconTint="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/btnReminder"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="RtlCompat" />
 
     <Button
         android:id="@+id/btnFeedback"
@@ -132,7 +138,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRateus"
         app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="RtlCompat" />
 
     <ImageButton
         android:id="@+id/imageButton6"

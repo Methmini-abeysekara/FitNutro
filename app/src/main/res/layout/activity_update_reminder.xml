@@ -24,7 +24,8 @@
         android:background="@drawable/ic_arrow_back"
         android:tint="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/topBar7"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
 
     <EditText
         android:id="@+id/reminderName2"
