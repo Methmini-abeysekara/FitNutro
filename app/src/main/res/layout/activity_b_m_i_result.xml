@@ -43,7 +43,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="RtlCompat" />
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -56,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtYourBMI"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints,RtlCompat">
 
         <TableRow>
 
@@ -214,7 +215,8 @@
         android:background="@drawable/ic_arrow_back"
         android:tint="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/topBar8"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
 
     <ImageButton
         android:id="@+id/imageButton6"
