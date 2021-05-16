@@ -28,7 +28,8 @@
      android:textSize="25sp"
      android:textStyle="bold"
      app:layout_constraintStart_toStartOf="parent"
-     app:layout_constraintTop_toTopOf="parent" />
+     app:layout_constraintTop_toTopOf="parent"
+     tools:ignore="RtlCompat" />
 
  <TextView
      android:id="@+id/txtweight"
@@ -41,7 +42,8 @@
      android:textSize="25sp"
      android:textStyle="bold"
      app:layout_constraintStart_toStartOf="parent"
-     app:layout_constraintTop_toBottomOf="@+id/txtheight" />
+     app:layout_constraintTop_toBottomOf="@+id/txtheight"
+     tools:ignore="RtlCompat" />
 
  <EditText
      android:id="@+id/edtHeight"
@@ -52,7 +54,8 @@
      android:ems="10"
      android:inputType="number|numberSigned|numberDecimal"
      app:layout_constraintEnd_toEndOf="parent"
-     app:layout_constraintTop_toTopOf="parent" />
+     app:layout_constraintTop_toTopOf="parent"
+     tools:ignore="RtlCompat" />
 
  <EditText
      android:id="@+id/edtWeight"
@@ -66,7 +69,8 @@
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintHorizontal_bias="0.0"
      app:layout_constraintStart_toEndOf="@+id/txtweight"
-     app:layout_constraintTop_toBottomOf="@+id/edtHeight" />
+     app:layout_constraintTop_toBottomOf="@+id/edtHeight"
+     tools:ignore="RtlCompat" />
 
  <Button
      android:id="@+id/btnCalcBMI"
@@ -130,7 +134,8 @@
      android:background="@drawable/ic_arrow_back"
      android:tint="#FFFFFF"
      app:layout_constraintStart_toStartOf="@+id/topBar4"
-     app:layout_constraintTop_toTopOf="parent" />
+     app:layout_constraintTop_toTopOf="parent"
+     tools:ignore="RtlCompat" />
 
  <ImageButton
      android:id="@+id/imageButton6"
