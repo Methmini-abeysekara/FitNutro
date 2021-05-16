@@ -15,7 +15,7 @@
 
         <activity android:name=".LoseActivity"
             android:label="Weight Loss Workouts"
-            android:parentActivityName=".StartTarget">
+            android:parentActivityName=".StartTarget"/>
 
 
         <activity android:name=".UpdateTask"
@@ -30,13 +30,13 @@
 
 
         </activity>
-        <activity
+       <!-- <activity
             android:name=".UpdateTask"
             android:label="Update Your Task"
             android:parentActivityName=".G_ScheduleList"> </activity>
         <activity
             android:name=".StartTarget"
-            android:label="Select Your Path"> </activity>
+            android:label="Select Your Path"> </activity>-->
         <activity
             android:name=".GainActivity"
             android:label="Weight Gain Workouts"
