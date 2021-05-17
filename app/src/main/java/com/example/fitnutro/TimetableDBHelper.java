@@ -24,6 +24,7 @@ public class TimetableDBHelper extends SQLiteOpenHelper {
         this.context = context;
     }
 
+    //
     @Override
     public void onCreate (SQLiteDatabase db) {
         String query = "CREATE TABLE " + Table_Name +
@@ -45,6 +46,7 @@ public class TimetableDBHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    //insert
     void insertData(String title, String list, int time){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
